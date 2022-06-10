@@ -1,16 +1,14 @@
 const Header = {
   render: () => {
     return `
-    <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
+    <header class="bg-dark py-3">
+            <div class="container px-4 px-lg-5 my-3">
                 <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Shop in style</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                  <img  class="img-fluid" alt="Responsive image" src = "https://images-production.bookshop.org/spree/promo_banner_slides/desktop_images/197/original/OrdinaryMonsters_Bookshop_2048x600.jpg?1654522949">
                 </div>
             </div>
         </header>
     `;
   }
 }
-
 export default Header;
