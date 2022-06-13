@@ -22,7 +22,11 @@ const Nav = {
                             </ul>
                         </li>
                     </ul>
+
                     <form class="d-flex">
+                    <a class="nav-link" href="http://localhost:3001/admin" >
+                        <span>Admin</span>
+                    </a>
                     <a href = "http://localhost:3001/cart-detail">
                     <button class="btn btn-outline-dark" type="submit">
                             <i class="bi-cart-fill me-1"></i>

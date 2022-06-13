@@ -16,11 +16,9 @@ const CategoryBooks = {
                       <div>Price: ${Book.price}</div>
                       <div>Sale Price: ${Book.sale_price}</div>
                       <div>Category id: ${Book.categoryId}</div>
-                      <div>
-                        <a href = "/category/${Book.categoryId}/books/${Book.id}">
-                            <button class = 'btn btn-info'>Detail</button>
-                        </a>                               
-                      </div>
+                      <a href = "/category/${Book.categoryId}/books/${Book.id}">
+                      <button class = 'btn btn-info'>Detail</button>
+                      </a>  
                       <br>
                     </div>
                       `

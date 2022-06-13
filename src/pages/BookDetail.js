@@ -60,6 +60,6 @@ const BookDetail = {
         localStorage.setItem('cart', JSON.stringify(cartItems));
         reRender('#cart', Cart);
     });
-}
-};//end BôkDetail
+}//end afterRender()
+};//end BookDetail
 export default BookDetail;
